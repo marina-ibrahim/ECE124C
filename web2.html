@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="css2.css">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+	<script src="j2.js"></script>
+</head>
+<body>
+	<h2>Hello one of our professional guide will help you step by step to eat healthy food and what vitamens your body need  </h2>
+	<img src="fine.jpg"style="width:250px;height: 200px">
+	<h4> Register </h4>
+    	<form onsubmit="fine()">
+    		<label for="first">First Name:</label>
+    		<input type="text" id="first" name="first" placeholder="your first name" required>
+    		<label for="last">Last Name:</label>
+    		<input type="text" id="last" name="last" placeholder="your last name" required>
+    		<div>
+    		<label for="male">Male</label>
+    		<input id="male" type="radio" name="gender" value="male">
+    		<label for="female">Female</label>
+    		<input id="female" type="radio" name="gender" value="female">
+    	<div>
+    		<label>
+    			Email:
+    		   <input type="email" name="email" placeholder="your email" required>
+    	    </label>
+    		<label>
+    			Password:
+    		   <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8}" required title="Must contain at least one number and one uppercase and lowercase letter,and a special character, and all is 8 character" placeholder="your password" required>
+         	</label>
+    	</div>
+    	<div action="/action_page.php">
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday">
+    	</div>
+    	<div action="/action_page.php">
+          <label for="phone">Enter a phone number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="01234567899" pattern="[0-9]{11}" required>
+    	</div>
+    	<div action="/action_page.php">
+    		<label for="weight">Enter your weight in Kg:</label>
+    		<input type="tel" name="weight" pattern=".{2,3}" required>
+    	</div>
+    	<div action="/action_page.php">
+    		<label for="height">Enter your height in cm:</label>
+    		<input type="tel" name="height" pattern=".{3}" required>
+    	</div>
+    	<div action="/action_page.php">
+          <label for="favcolor">Select your favorite color:</label>
+          <input type="color" id="favcolor" name="favcolor" value="#2f4f4f">
+    	</div>
+    	<div>
+           <label for="agreed"> I agree to the terms and conditions </label>
+            <input id="agreed" type="checkbox" name="agreed" required>
+        </div>    
+          <input type="submit">
+        </form>
+        
+</body>
+</html>

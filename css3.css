@@ -1,0 +1,32 @@
+body{
+	background-image: url(is.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font-size: 22px;
+	font-family: source sans pro;
+	text-align: center;
+}
+thead{
+	color: rgb(139,0,0);
+	background-color: rgb(169,169,169);
+}
+thead:hover{
+	text-decoration: underline;
+}
+h1{
+	border:2px solid rgb(139,0,0);
+	margin: 50px 500px;
+}
+tbody tr:nth-of-type(even){
+	color: green;
+}
+td:nth-of-type(1){
+	background: rgb(169,169,169);
+}
+td:hover{
+	background-color: rgb(169,169,169);
+}

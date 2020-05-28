@@ -1,0 +1,23 @@
+body{
+	background: url(tall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font-size: 22px;
+	font-family: source sans pro;
+}
+
+h1{
+	text-align: center;
+	color: #2F4F4F
+}
+h1:hover{
+	text-decoration: underline;
+}
+img{
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}

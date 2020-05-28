@@ -1,0 +1,15 @@
+body{
+	background-image: url(wait.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font-size: 22px;
+	font-family: source sans pro;
+	text-align: center;
+}
+img{
+	border: 2px solid black;
+}
